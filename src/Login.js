@@ -44,7 +44,7 @@ class Login extends Component {
     return (
       <div className="col-md-6">
         <form>
-          <h3>Sign In</h3>
+          <h3>Sign Up & Sign In</h3>
 
           <div className="form-group">
             <label for="exampleInputEmail">Email address</label>

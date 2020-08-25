@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import fire from "./config/Fire";
 import io from "socket.io-client";
-const ENDPOINT = "http://localhost:8000/";
+//const ENDPOINT = "http://localhost:8000/";
+const ENDPOINT = "https://task1-laharic.herokuapp.com/";
 
-//Creating socket to connect to SERVER
+//Create socket to connect to SERVER
 var socket = io.connect(ENDPOINT);
 
 class Home extends Component {
